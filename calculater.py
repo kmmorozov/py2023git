@@ -1,3 +1,5 @@
+from min import my_minimum
+
 a = int(input('Введите число а: '))
 
 b = int(input('Введите число b: '))
@@ -11,3 +13,8 @@ if action == 'plus':
 elif action == 'minus':
     result = a - b
     print(result)
+elif action == 'min':
+    result = my_minimum(a,b)
+    print(result)
+
+
