@@ -1,5 +1,5 @@
 from min import my_minimum
-
+from min import my_plus
 a = int(input('Введите число а: '))
 
 b = int(input('Введите число b: '))
