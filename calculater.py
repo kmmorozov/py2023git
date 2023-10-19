@@ -1,5 +1,6 @@
+from ValeriySh import koren
 from min import my_minimum
-from min import my_plus
+from plus import my_plus
 a = int(input('Введите число а: '))
 
 b = int(input('Введите число b: '))
@@ -16,5 +17,8 @@ elif action == 'minus':
 elif action == 'min':
     result = my_minimum(a,b)
     print(result)
+elif action == 'koren':
+    koren(a,b)
+    print("Корень из А: ", a, "\nКорень из B: ", b)
 
 
