@@ -19,6 +19,6 @@ elif action == 'min':
     print(result)
 elif action == 'koren':
     koren(a,b)
-    print("Корень из А: ", a, "\nКорень из B: ", b)
+    # print("Корень из А: ", a, "\nКорень из B: ", b)
 
 
