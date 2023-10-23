@@ -1,0 +1,2 @@
+print("Ketisapfir")
+print(проверка)
