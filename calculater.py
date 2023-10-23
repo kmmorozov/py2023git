@@ -20,5 +20,7 @@ elif action == 'min':
 elif action == 'koren':
     koren(a,b)
     # print("Корень из А: ", a, "\nКорень из B: ", b)
-
+    if action == 'deli':
+        result = a / b
+        return result
 
